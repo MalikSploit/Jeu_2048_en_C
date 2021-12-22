@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.21)
+project(Malik_Anis_Jeu)
+add_executable(Malik_Anis_Jeu main.c 2048.c)
+target_link_libraries(Malik_Anis_Jeu SDL SDL_image SDL_ttf m)
+install(TARGETS Malik_Anis_Jeu RUNTIME DESTINATION bin)
