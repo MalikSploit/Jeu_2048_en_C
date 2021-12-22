@@ -35,7 +35,8 @@ Ces commandes installeront les librairies nécessaires pour le fonctionnement du
 
 Après avoir satisfait les exigences, nous pouvons passer à la compilation du programme.
 Vous devez avoir le dossier : `Malik_Jeu` dans Desktop.
-Ensuite, nous ouvrons notre dossier, disons que nous sommes en root : `cd /root/Desktop/Malik_Jeu`
+Ensuite, nous ouvrons notre dossier, disons que nous sommes root : 
+`cd /root/Desktop/Malik_Jeu`
 
 Ensuite, nous pouvons construire le projet :
 
