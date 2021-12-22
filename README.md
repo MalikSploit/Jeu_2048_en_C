@@ -1,9 +1,6 @@
 # Jeu 2048 en C avec SDL1.2
 Voici le jeu 2048 codé en C avec SDL1.2
 
-# Autheur
-- Malik Makkes
-
 ## Conditions
 - SDL
 - SDL_ttf
