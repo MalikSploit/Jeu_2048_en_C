@@ -33,8 +33,8 @@ int main() //Fonction principale
     Uint32 blanc = SDL_MapRGB(ecran->format, 255, 255, 255); //On cree la couleur blanche avec le max de rouge, vert et bleu.
     SDL_FillRect(ecran, NULL, blanc); //On remplit entierement la fenetre ecran avec la couleur blanche.
     police = TTF_OpenFont("Style.ttf", 65); //On donne a police le style ariale avec une taille de 65.
-    titre = TTF_RenderText_Blended(police, "Jeu de Malik et Anis", couleurNoire); //On cree la zone de texte et on lui donne notre chaine de caracteres ainsi que la couleur.
-    posTitre.x = 14; //On donne la position du titre sur l'ecran au niveau des abscisses.
+    titre = TTF_RenderText_Blended(police, "Jeu de Malik Makkes", couleurNoire); //On cree la zone de texte et on lui donne notre chaine de caracteres ainsi que la couleur.
+    posTitre.x = 10; //On donne la position du titre sur l'ecran au niveau des abscisses.
     posTitre.y = 25; //On donne la position du titre sur l'ecran au niveau des ordonnées.
     police = TTF_OpenFont("Style.ttf", 60); ////On donne a police le style ariale avec une taille de 60 cette fois.
     menu1 = TTF_RenderText_Blended(police, " Cliquer deux fois ici" , couleurBleue); //On cree la zone de texte et on lui donne notre chaine de caracteres ainsi que la couleur.
